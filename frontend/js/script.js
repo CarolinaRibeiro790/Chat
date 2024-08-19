@@ -90,7 +90,7 @@ const handleLogin = (event) => {
     chat.style.display = 'flex'
 
     //conexão com o servidor
-    websocket = new WebSocket('ws://localhost:8080')
+    websocket = new WebSocket('wss://chat-5cb7.onrender.com')
 
      //mensagem do servidor
      websocket.onmessage = processMessage
