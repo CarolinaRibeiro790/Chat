@@ -11,8 +11,7 @@ const wss = new WebSocketServer({port: process.env.PORT || 8080})
 
 //envento de conexão, ws cliente que está conectando no servidor
 wss.on("connection", (ws) =>{
-    ws.on('error', console.error(err))
-
+    ws.on('error', console.error)
 
     //dispara sempre que alguém mandou uma mensagem para o servidor
     ws.on('message', (data)=> {
@@ -20,7 +19,7 @@ wss.on("connection", (ws) =>{
         wss.clients.forEach(client => { client.send(data.toString())});
 
         //retornar a mensagem apenas para o cliente que enviou a mensagem
-        //wss.clients.forEach(client => { ws.send(data)});
+        // wss.clients.forEach(client => { ws.send(data)});
     })
 
     console.log('client connected')
