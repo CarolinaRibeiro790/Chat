@@ -35,7 +35,8 @@ O frontend se conecta ao backend via WebSockets, garantindo que as mensagens sej
 ## 📸 Tela
 ![image](https://github.com/user-attachments/assets/ed533fb1-b269-402a-90bf-0f8d924f8cc6)
 
- Para rodar o chat, digitar no terminal:  
+ ## 📦 Como Rodar o Projeto
+ Digitar no terminal:  
 `cd backend` **(abre a pasta do servidor)**  
 `npm install` **(instala as dependências)**  
 `npm start` **(inicia o servidor do projeto)**
