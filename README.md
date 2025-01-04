@@ -5,7 +5,9 @@
   Chat em Tempo Real com Node.js e JavaScript
 </h1>
 
-Este projeto visa a criação de um chat em tempo real usando apenas JavaScript puro para o frontend e Node.js para o backend. Vamos desenvolver uma aplicação simples e eficiente que permite a comunicação entre usuários em tempo real.
+Este projeto foi desenvolvido como parte do curso "Como criar um chat em tempo real...", ministrado pelo canal Manual do Dev no YouTube.
+
+Neste curso, aprendi como criar um chat funcional usando Node.js no backend e JavaScript puro no frontend, além de estilizar a interface com HTML e CSS. Também aprendi como realizar o deploy gratuito do projeto para torná-lo acessível online.
 
 ## 🚀 Sobre o Projeto
 Neste projeto, aprendi como criar um chat funcional usando:
