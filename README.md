@@ -16,7 +16,7 @@ Neste projeto, aprendi como criar um chat funcional usando:
 <li>HTML, CSS e JavaScript puro para o frontend, proporcionando uma interface intuitiva e responsiva.
 <li>Sockets para a comunicação em tempo real, permitindo que mensagens sejam enviadas e recebidas instantaneamente.
 
- ## Funcionalidades Principais
+ ## 📝 Funcionalidades Principais
 1. Mensagens em Tempo Real:
 Usuários podem enviar e receber mensagens instantaneamente, proporcionando uma experiência de chat fluida e dinâmica.
 
@@ -26,7 +26,7 @@ Utilizamos CSS puro para estilizar a interface, garantindo um design limpo e agr
 3. Conexão com o Backend em Tempo Real:
 O frontend se conecta ao backend via WebSockets, garantindo que as mensagens sejam enviadas e recebidas de forma eficiente.
 
-## 🚀 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 <li>Node.js: Para a lógica do servidor e comunicação via WebSockets.
 <li>JavaScript Puro: Para o desenvolvimento do frontend.
 <li>HTML e CSS: Para a construção da interface do usuário.
